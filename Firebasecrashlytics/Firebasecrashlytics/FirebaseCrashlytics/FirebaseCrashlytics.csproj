@@ -13,7 +13,5 @@
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\ClassLibrary1\ClassLibrary1.csproj" />
-  </ItemGroup>
+  <Import Project="..\..\SharedProject1\SharedProject1.projitems" Label="Shared" />
 </Project>

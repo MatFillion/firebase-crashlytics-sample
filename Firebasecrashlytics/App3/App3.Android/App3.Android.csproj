@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{39BD34C3-0E62-4159-B90E-F6BE9C2A6BA5}</ProjectGuid>
+    <ProjectGuid>{A61EB198-C1DA-45D2-B19F-A3F019570F32}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>FirebaseCrashlytics.Droid</RootNamespace>
-    <AssemblyName>FirebaseCrashlytics.Android</AssemblyName>
+    <RootNamespace>App3.Droid</RootNamespace>
+    <AssemblyName>App3.Android</AssemblyName>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -152,15 +152,6 @@
     <Folder Include="Resources\drawable-xxxhdpi\" />
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FirebaseCrashlytics\FirebaseCrashlytics.csproj">
-      <Project>{8E906E79-CE61-404D-8477-94BB64B95FF3}</Project>
-      <Name>FirebaseCrashlytics</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\values\strings.xml" />
-  </ItemGroup>
-  <Import Project="..\..\SharedProject1\SharedProject1.projitems" Label="Shared" />
+  <Import Project="..\App3\App3.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

@@ -9,5 +9,8 @@
     <Import_RootNamespace>SharedProject1</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)FirebaseCrashlyticsService.Android.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FirebaseCrashlyticsService.Shared.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IFirebaseCrashlyticsService.cs" />
   </ItemGroup>
 </Project>
