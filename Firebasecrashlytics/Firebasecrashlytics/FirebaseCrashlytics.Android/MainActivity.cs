@@ -1,5 +1,4 @@
 ﻿using System;
-
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
@@ -19,7 +18,14 @@ namespace FirebaseCrashlytics.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            LoadApplication(new App());
+
+			//Initialize the Crashlytics SDK
+			Fabric.Fabric.With(this, new Crashlytics.Crashlytics());
+
+			//Catch unhandled android exceptions and format them nicely
+			Crashlytics.Crashlytics.HandleManagedExceptions();
+			
+			LoadApplication(new App());
         }
     }
 }
