@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Crashlytics9.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("App3.Droid.Resource", IsApplication=true)]
 
-namespace Crashlytics9.Droid
+namespace App3.Droid
 {
 	
 	
@@ -26,7 +26,7 @@ namespace Crashlytics9.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Crashlytics9.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::App3.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation
