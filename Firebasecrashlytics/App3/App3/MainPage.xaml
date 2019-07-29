@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:App3"
-             x:Class="App3.MainPage">
+             xmlns:local="clr-namespace:Crashlytics9"
+             x:Class="Crashlytics9.MainPage">
 
     <StackLayout>
         <!-- Place new controls here -->
@@ -11,13 +11,13 @@
            VerticalOptions="CenterAndExpand" />
 
 		<Button Text="Crash test"
-				Command="{Binding CrashTest}"/>
+				Command="{Binding Path=CrashTest}"/>
 		
 		<Button Text="Force UI Crash"
-				Command="{Binding ForceUICrash}"/>
+				Command="{Binding Path=ForceUICrash}"/>
 		
 		<Button Text="Force Background Crash"
-				Command="{Binding ForceBackgroundCrash}"/>
+				Command="{Binding Path=ForceBackgroundCrash}"/>
 	</StackLayout>
 
 </ContentPage>

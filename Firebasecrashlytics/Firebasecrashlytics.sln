@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App3.Android", "App3\App3.Android\App3.Android.csproj", "{A61EB198-C1DA-45D2-B19F-A3F019570F32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crashlytics9.Android", "App3\App3.Android\Crashlytics9.Android.csproj", "{A61EB198-C1DA-45D2-B19F-A3F019570F32}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "App3", "App3\App3\App3.shproj", "{B35A00E8-BA2A-494A-AE33-F95E8DCFCAFC}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Crashlytics9", "App3\App3\Crashlytics9.shproj", "{B35A00E8-BA2A-494A-AE33-F95E8DCFCAFC}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
